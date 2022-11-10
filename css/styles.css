@@ -1,15 +1,10 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
+        font-family: 'Roboto', sans-serif;
+        color: #212121;
 }
 
 .logo-part-blue{
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.192;
-        letter-spacing: 0.03em;
         color: #2196F3;
-        text-decoration: none;
 }
 
 .logo-part-black{
@@ -19,6 +14,19 @@ body{
         letter-spacing: 0.03em;
         color: #000000;
         text-decoration: none;
+        font-family: raleway;
+        text-decoration: none;
+}
+
+.logo-part-white{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;   
+        color: #FFFFFF;
+        text-decoration: none;
 }
 
 .header-nav{
@@ -26,6 +34,7 @@ body{
 }
 
 .header-nav-link{
+        color: #212121;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.142;
@@ -67,7 +76,11 @@ body{
 }
 
 .main-nav{
-    list-style: none;
+        list-style: none;
+}
+
+.hero{
+        background-color: #2F303A;;
 }
 
 .h1{
@@ -81,6 +94,8 @@ body{
 }
 
 .main-button{
+        background-color: #2196F3;
+        color: #FFFFFF;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.875;
@@ -88,27 +103,35 @@ body{
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        cursor: pointer;
 }
 
-.main-button:hover,
+.main-button:hover{
+        background-color: #188CE8;
+}
+
 .main-button:focus {
         color: #2196F3;
 }
 
 .h2-occupation{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.166;
-    text-align: center;
-    letter-spacing: 0.03em;
+         font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.team-background{
+        background-color: #F5F4FA;;
 }
 
 .h2-team{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.166;
-    text-align: center;
-    letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .h3-feature{
@@ -145,14 +168,20 @@ body{
 }
 
 .work-sections{
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.625;
         text-align: center;
         letter-spacing: 0.03em;
+        cursor: pointer;
 }
 
-.work-sections:hover,
+.work-sections:hover{
+        color: #FFFFFF;
+        background-color: #2196F3;;
+}
+
 .work-sections:focus {
         color: #ffffff;
 }
@@ -172,16 +201,22 @@ body{
         color: #757575;
 }
 
+.footer-background{
+        background-color: #2F303A;;
+}
+
 .footer-nav{
-    list-style: none;
+        list-style: none;
 }
 
 .address{
-    font-weight: 400;
+        font-style: normal;
+        font-weight: 400;
         font-size: 14px;
         line-height: 1.714;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        text-decoration: none;
 }
 
 .address:hover,
@@ -190,12 +225,13 @@ body{
 }
 
 .mailto-footer{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
 
 .mailto-footer:hover,
@@ -204,6 +240,7 @@ body{
 }
 
 .tel-footer{
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.714;
